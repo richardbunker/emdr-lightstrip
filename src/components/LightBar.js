@@ -23,18 +23,18 @@ export default function LightBar(props) {
       }
     );
 
-  const getCurrentLeftPosition = () => {
-    const width = window
-      .getComputedStyle(barRef.current)
-      .getPropertyValue("width");
-    const position = window
-      .getComputedStyle(dotRef.current)
-      .getPropertyValue("left");
-    return (
-      (Number(position.replace("px", "")) / Number(width.replace("px", ""))) *
-      100
-    ).toFixed(0);
-  };
+  //   const getCurrentLeftPosition = () => {
+  //     const width = window
+  //       .getComputedStyle(barRef.current)
+  //       .getPropertyValue("width");
+  //     const position = window
+  //       .getComputedStyle(dotRef.current)
+  //       .getPropertyValue("left");
+  //     return (
+  //       (Number(position.replace("px", "")) / Number(width.replace("px", ""))) *
+  //       100
+  //     ).toFixed(0);
+  //   };
 
   const increaseSpeed = () => {
     if (speed > 0) {

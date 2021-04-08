@@ -1,6 +1,5 @@
 {
   "name": "emdr-lightstrip",
-  "homepage": "https://github.com/richardbunker/emdr-lightstrip",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
